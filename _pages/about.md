@@ -28,7 +28,7 @@ Wei Zhang(张唯) is an undergraduate student at the College of Computer Science
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/PREST.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Evidence-aware Integration and Domain Identification of Spatial Transcriptomics Data](https://www.wayc04.com)
+[Evidence-aware Integration and Domain Identification of Spatial Transcriptomics Data](https://ojs.aaai.org/index.php/AAAI/article/view/38673)
 
 **Wei Zhang**, Siyu Yi, Lezhi Chen, Yifan Wang, Ziyue Qiao, Yongdao Zhou, Wei Ju
 <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
