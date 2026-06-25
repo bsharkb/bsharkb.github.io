@@ -2,68 +2,66 @@
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Wei Zhang"
-description              : "The moon shines on me "
-repository               : "RayeRen/acad-homepage.github.io"
+title                    : "Junyi Li"
+description              : "Personal Homepage"
+repository               : "bsharkb/bsharkb.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
-google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+google_analytics_id      :
 
 # SEO Related
-google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
-baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+google_site_verification :
+bing_site_verification   :
+baidu_site_verification  :
 
 # Site Author
 author:
-  name             : "Wei Zhang"
+  name             : "Junyi Li"
   avatar           : "images/MyPhoto.jpg"
-  bio              : "Sichuan University"
-  location         : "Chengdu, China"
+  bio              : "AI Research"
+  location         :
   employer         :
-  pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "wayc04@outlook.com"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  pubmed           :
+  googlescholar    :
+  email            : "your-email@example.com"
+  researchgate     :
+  uri              : "https://bsharkb.github.io"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "wayc04"
+  github           : "bsharkb"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  linkedin         :
+  dblp             :
+  orcid            :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          :
   vine             :
   weibo            :
   xing             :
   youtube          :
   wikipedia        :
 
-
 # Reading Files
 include:
   - .htaccess
   - _pages
   - files
+
 exclude:
   - docs
   - google_scholar_crawler
@@ -91,12 +89,13 @@ exclude:
   - package.json
   - tmp
   - vendor
+
 keep_files:
   - .git
   - .svn
+
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 
 # Conversion
 markdown: kramdown
@@ -104,7 +103,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -119,7 +117,6 @@ kramdown:
 
 # Defaults
 defaults:
-  # _pages
   - scope:
       path: ""
       type: pages
@@ -127,17 +124,14 @@ defaults:
       layout: default
       author_profile: true
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
+  style: compressed
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+timezone: Asia/Shanghai
 
 # Plugins
 plugins:
@@ -146,6 +140,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -154,9 +149,7 @@ whitelist:
   - jekyll-feed
   - jemoji
 
-
 # HTML Compression
-# - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
