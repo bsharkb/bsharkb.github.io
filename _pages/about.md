@@ -4,12 +4,7 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from:
-
-* /about/
-* /about.html
-
----
+--------------------
 
 I am Junyi Li. I am interested in artificial intelligence, machine learning, and related research topics.
 
